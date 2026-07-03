@@ -175,6 +175,14 @@ img, svg { display: block; max-width: 100%; }
   background: var(--amber);
   box-shadow: 0 0 12px 2px rgba(255,182,39,0.7);
 }
+.nav__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 1px rgba(255,182,39,0.35);
+  flex-shrink: 0;
+}
+.footer .nav__logo { width: 36px; height: 36px; }
 .nav__links {
   display: flex;
   gap: 28px;
